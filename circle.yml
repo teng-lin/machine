@@ -1,0 +1,17 @@
+
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker info
+    - make validate
+    - make build
+    - go get code.google.com/p/go.tools/cmd/cover
+
+
+test:
+  override:
+    - make test
+    - script/generate-coverage
