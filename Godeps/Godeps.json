@@ -18,6 +18,34 @@
 			"Rev": "1f2ba2c6317323dd667bd266c1e8ebffc4a4c62f"
 		},
 		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/aws",
+			"Rev": "de58760a1f88012c909b08b1f6205f2a45eaf30b"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/internal/endpoints",
+			"Rev": "de58760a1f88012c909b08b1f6205f2a45eaf30b"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/internal/protocol/ec2query",
+			"Rev": "de58760a1f88012c909b08b1f6205f2a45eaf30b"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/internal/protocol/query/queryutil",
+			"Rev": "de58760a1f88012c909b08b1f6205f2a45eaf30b"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/internal/protocol/xml/xmlutil",
+			"Rev": "de58760a1f88012c909b08b1f6205f2a45eaf30b"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/internal/signer/v4",
+			"Rev": "de58760a1f88012c909b08b1f6205f2a45eaf30b"
+		},
+		{
+			"ImportPath": "github.com/awslabs/aws-sdk-go/service/ec2",
+			"Rev": "de58760a1f88012c909b08b1f6205f2a45eaf30b"
+		},
+		{
 			"ImportPath": "github.com/cenkalti/backoff",
 			"Rev": "9831e1e25c874e0a0601b6dc43641071414eec7a"
 		},
@@ -138,21 +166,17 @@
 			"Rev": "983d4d86054d80f91fd04dd62ec52c1d078ce403"
 		},
 		{
-			"ImportPath": "github.com/smartystreets/go-aws-auth",
-			"Rev": "1f0db8c0ee6362470abe06a94e3385927ed72a4b"
-		},
-		{
 			"ImportPath": "github.com/tent/http-link-go",
 			"Rev": "ac974c61c2f990f4115b119354b5e0b47550e888"
+		},
+		{
+			"ImportPath": "github.com/vaughan0/go-ini",
+			"Rev": "a98ad7ee00ec53921f08832bc06ecf7fd600e6a1"
 		},
 		{
 			"ImportPath": "github.com/vmware/govcloudair",
 			"Comment": "v0.0.2",
 			"Rev": "66a23eaabc61518f91769939ff541886fe1dceef"
-		},
-		{
-			"ImportPath": "golang.org/x/net/context",
-			"Rev": "97d8e4e174133a4d1d2171380e510eb4dea8f5ea"
 		},
 		{
 			"ImportPath": "google.golang.org/api/compute/v1",
